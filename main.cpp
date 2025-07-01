@@ -1,4 +1,6 @@
-bool lemonadeChange(vector<int>& bills) {
+#include <vector>
+
+bool lemonadeChange(std::vector<int>& bills) {
     int five = 0, ten = 0;
     for (int bill : bills) {
         if (bill == 5) {
